@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <h1>Certification Form</h1>
+      <FormPage/>
     </div>
   );
 }
